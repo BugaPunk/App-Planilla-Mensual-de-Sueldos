@@ -8,6 +8,7 @@ data class Empleado(
     var cargo: String = "",
     var haberBasico: Double = 0.0
 ) {
+    // Funciones de calculo de la segunda tabla
     fun calcularAniosDeTrabajo(): Int {
         val anioIngreso = fechaIngreso.split("/")[2].toInt()
         val anioActual = java.util.Calendar.getInstance().get(java.util.Calendar.YEAR)
