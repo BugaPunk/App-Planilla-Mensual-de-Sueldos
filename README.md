@@ -68,7 +68,4 @@ create table beneficios_empleado
     constraint beneficios_empleado_ibfk_1
         foreign key (empleado_id) references empleado (id)
 );
-
-create index empleado_id
-    on beneficios_empleado (empleado_id);
 ```
