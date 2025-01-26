@@ -82,6 +82,7 @@
                 android:id="@+id/txtInputHaberB"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:inputType="number"
                 android:hint="@string/haber_b_sico" />
         </com.google.android.material.textfield.TextInputLayout>
     </LinearLayout>

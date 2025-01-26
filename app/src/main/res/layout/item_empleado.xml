@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="10dp"
-    app:cardElevation="5dp"
     app:cardCornerRadius="10dp">
 
     <LinearLayout
@@ -103,7 +102,7 @@
                 android:text="" />
         </LinearLayout>
 
-        <!--LinearLayout
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal">
@@ -118,6 +117,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="" />
-        </LinearLayout-->
+        </LinearLayout>
     </LinearLayout>
 </com.google.android.material.card.MaterialCardView>
