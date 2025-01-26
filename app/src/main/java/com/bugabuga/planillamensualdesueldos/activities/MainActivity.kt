@@ -51,9 +51,13 @@ class MainActivity : AppCompatActivity(), EmpleadoAdapter.IOnClickListener {
                 Intent(this, OperationEmpleadoActivity::class.java)
             )
         }
+
+        binding.toolbar.toolbar.setNavigationOnClickListener {
+            leerEmpleado("")
+        }
     }
 
-    private fun leerEmpleado(dato: String) {
+    fun leerEmpleado(dato: String) {
         var msgError = ""
 
         lifecycleScope.launch {

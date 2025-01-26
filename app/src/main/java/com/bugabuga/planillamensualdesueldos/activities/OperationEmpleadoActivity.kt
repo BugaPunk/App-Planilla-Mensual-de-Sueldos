@@ -50,6 +50,7 @@ class OperationEmpleadoActivity : AppCompatActivity() {
 
             setNavigationOnClickListener {
                 onBackPressedDispatcher.onBackPressed()
+
             }
         }
 
