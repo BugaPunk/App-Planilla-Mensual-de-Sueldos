@@ -1,5 +1,4 @@
 # Planilla Mensual de Sueldos
-==========================
 
 ## Descripción
 ---------------
@@ -68,4 +67,16 @@ create table beneficios_empleado
     constraint beneficios_empleado_ibfk_1
         foreign key (empleado_id) references empleado (id)
 );
+```
+## Consideraciones
+------------------
+Agregar el comando 'skip-grant-tables' en el archivo 'my.cnf' sobre "[mysql]" y debajo de "port=3306" para evitar problemas con la base de datos.
+### Linux
+
+```bash
+/opt/lampp/etc/my.cnf
+```
+### Windows
+```bash
+C:\xampp\mysql\bin\my.ini
 ```
