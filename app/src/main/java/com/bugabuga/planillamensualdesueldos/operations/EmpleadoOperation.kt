@@ -4,29 +4,37 @@ import com.bugabuga.planillamensualdesueldos.models.Empleado
 
 object EmpleadoOperation {
     fun listar(dato: String): List<Empleado> {
-        var lista = mutableListOf<Empleado>()
+        try {
+            var lista = mutableListOf<Empleado>()
 
-        val conexion = MySQLconnection.getConexion().prepareStatement(
-            "SELECT id, nombre, apellidos, fecha_ingreso, cargo, haber_basico FROM empleado WHERE nombre LIKE concat('%', ?, '%') OR apellidos LIKE concat('%', ?, '%');"
-        )
-        conexion.setString(1, dato)
-        val result_set = conexion.executeQuery()
-
-        while (result_set.next()) {
-            lista.add(
-                Empleado(
-                    result_set.getInt("id"),
-                    result_set.getString("nombre"),
-                    result_set.getString("apellidos"),
-                    result_set.getString("fecha_ingreso"),
-                    result_set.getString("cargo"),
-                    result_set.getDouble("haber_basico")
-                )
+            val ps = MySQLconnection.getConexion().prepareStatement(
+                "SELECT id, nombre, apellidos, fecha_ingreso, cargo, haber_basico FROM empleado WHERE nombre LIKE concat('%',?,'%');"
             )
+
+            ps.setString(1, dato) // Reemplaza el parámetro ? con el valor de dato
+
+            val rs = ps.executeQuery()
+
+            while (rs.next()) {
+                lista.add(
+                    Empleado(
+                        rs.getInt("id"),
+                        rs.getString("nombre"),
+                        rs.getString("apellidos"),
+                        rs.getString("fecha_ingreso"),
+                        rs.getString("cargo"),
+                        rs.getDouble("haber_basico")
+                    )
+                )
+            }
+            rs.close()
+            ps.close()
+
+            return lista
+        } catch (e: Exception) {
+            println("Error en la función listar: ${e.message}")
+            return emptyList()
         }
-        result_set.close()
-        conexion.close()
-        return lista
     }
 
     private fun registrar(empleado: Empleado) {

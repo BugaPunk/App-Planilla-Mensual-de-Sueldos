@@ -31,12 +31,6 @@
                 android:hint="@string/buscar" />
 
         </com.google.android.material.textfield.TextInputLayout>
-        <ProgressBar
-            android:id="@+id/progressBar"
-            style="?android:attr/progressBarStyle"
-            android:visibility="gone"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rv_lista"

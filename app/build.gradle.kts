@@ -47,7 +47,7 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 
     // https://mvnrepository.com/artifact/com.mysql/mysql-connector-j
-    implementation(libs.mysql.connector.j)
+    implementation(files("libs/mysql-connector-java-5.1.49.jar"))
     // Utilidades
     implementation(libs.libreria.pcs)
 

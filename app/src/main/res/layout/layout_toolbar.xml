@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<com.google.android.material.appbar.MaterialToolbar
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<com.google.android.material.appbar.MaterialToolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/collapsingToolbarLayoutMediumSize"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/toolbar"
     android:background="?attr/colorPrimary"
-    style="?attr/collapsingToolbarLayoutMediumSize"
-    android:layout_width="match_parent"
-    android:layout_height="?attr/collapsingToolbarLayoutMediumSize"
-    app:title="@string/app_name"
     app:navigationIcon="@drawable/update_rounded"
     app:navigationIconTint="@color/white"
+    app:title="@string/app_name"
     app:titleTextColor="@color/white"
-    app:titleMarginTop="50dp"
     app:subtitle=""
-    app:subtitleTextColor="@color/white">
+    app:subtitleTextColor="@color/white"
+    app:subtitleCentered="true">
 
+<!--  -->
     <ImageButton
         android:id="@+id/btnAccion"
         android:layout_width="wrap_content"

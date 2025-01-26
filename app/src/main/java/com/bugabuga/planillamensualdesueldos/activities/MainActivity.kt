@@ -57,7 +57,6 @@ class MainActivity : AppCompatActivity(), EmpleadoAdapter.IOnClickListener {
         var msgError = ""
 
         lifecycleScope.launch {
-            binding.progressBar.isVisible = true
 
             val result = withContext(Dispatchers.IO) {
                 try {
@@ -69,7 +68,7 @@ class MainActivity : AppCompatActivity(), EmpleadoAdapter.IOnClickListener {
             }
 
             if (msgError.isNotEmpty())
-                UtilsMessage.showAlertOk("Error", msgError, this@MainActivity)
+                UtilsMessage.showAlertOk("ERROR", msgError, this@MainActivity)
 
             (binding.rvLista.adapter as EmpleadoAdapter).setData(result)
         }
@@ -79,7 +78,6 @@ class MainActivity : AppCompatActivity(), EmpleadoAdapter.IOnClickListener {
         var msgError = ""
 
         lifecycleScope.launch {
-            binding.progressBar.isVisible = true
 
             withContext(Dispatchers.IO) {
                 try {
