@@ -123,9 +123,8 @@ class MainActivity : AppCompatActivity(), EmpleadoAdapter.IOnClickListener {
                 dialog.dismiss()
             }
             setNegativeButton("No") { dialog, _ ->
-                dialog.dismiss()
+                dialog.cancel()
             }
-            show()
-        }
+        }.create().show()
     }
 }
