@@ -1,31 +1,51 @@
 package com.bugabuga.planillamensualdesueldos.activities
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.bugabuga.planillamensualdesueldos.databinding.ActivityOperationEmpleadoBinding
-import androidx.activity.enableEdgeToEdge
-import com.bugabuga.planillamensualdesueldos.R
 import androidx.appcompat.content.res.AppCompatResources
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
-import androidx.core.view.isVisible
 import androidx.lifecycle.lifecycleScope
+import com.bugabuga.planillamensualdesueldos.R
+import com.bugabuga.planillamensualdesueldos.databinding.ActivityOperationEmpleadoBinding
 import com.bugabuga.planillamensualdesueldos.models.BeneficiosEmpleado
 import com.bugabuga.planillamensualdesueldos.models.Empleado
 import com.bugabuga.planillamensualdesueldos.operations.EmpleadoOperation
+import com.google.android.material.datepicker.MaterialDatePicker
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import pe.pcs.libpcs.UtilsCommon
 import pe.pcs.libpcs.UtilsMessage
+import java.text.SimpleDateFormat
+import java.util.Calendar
 
 class OperationEmpleadoActivity : AppCompatActivity() {
     private lateinit var binding: ActivityOperationEmpleadoBinding
     private var _id = 0
+    private lateinit var FechaPicker: String
+    @SuppressLint("SimpleDateFormat")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityOperationEmpleadoBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        binding.txtInputFIngreso.setOnClickListener {
+            val datePicker = MaterialDatePicker.Builder.datePicker()
+                .setTitleText("Selecciona la fecha de ingreso")
+                .setSelection(MaterialDatePicker.todayInUtcMilliseconds())
+                .build()
+
+            datePicker.show(supportFragmentManager, "DATE_PICKER")
+
+            datePicker.addOnPositiveButtonClickListener {
+                val fechaSeleccionada = datePicker.selection
+                val calendar = Calendar.getInstance()
+                calendar.timeInMillis = fechaSeleccionada!!
+                calendar.add(Calendar.DAY_OF_YEAR, 1) // Agregar un día para obtener la fecha correcta
+                val fechaFormateada = SimpleDateFormat("dd/MM/yyyy").format(calendar.time)
+                binding.txtInputFIngreso.setText(fechaFormateada)
+            }
+        }
 
         if (intent.extras != null) {
             obtenerEmpleado()
