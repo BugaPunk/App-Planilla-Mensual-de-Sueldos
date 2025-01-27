@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.bugabuga.planillamensualdesueldos.app-mergeDebugResources-30:/values-night-v8/values-night-v8.xml",
+            "outputFile": "C:\\Users\\punks\\.gradle\\daemon\\8.10.2\\com.bugabuga.planillamensualdesueldos.app-mergeDebugResources-30:\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
                     "source": "C:\\Users\\punks\\.gradle\\caches\\8.10.2\\transforms\\37b0a1f67e839d0da6818f6dd0cdfdc4\\transformed\\material-1.12.0\\res\\values-night-v8\\values-night-v8.xml",
@@ -54,6 +54,60 @@
                         "startOffsets": "187,257,341,425,521,623,725,3707",
                         "endColumns": "69,83,83,95,101,101,93,88",
                         "endOffsets": "252,336,420,516,618,720,814,3791"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.bugabuga.planillamensualdesueldos.app-mergeDebugResources-30:/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\punks\\.gradle\\caches\\8.10.2\\transforms\\37b0a1f67e839d0da6818f6dd0cdfdc4\\transformed\\material-1.12.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,84,85,86,87,88,89,90,91",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "4440,4515,4626,4715,4816,4923,5030,5129,5236,5339,5466,5554,5678,5780,5882,5998,6100,6214,6342,6458,6580,6716,6836,6970,7090,7202,7417,7534,7658,7788,7910,8048,8182,8298",
+                        "endColumns": "74,110,88,100,106,106,98,106,102,126,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
+                        "endOffsets": "4510,4621,4710,4811,4918,5025,5124,5231,5334,5461,5549,5673,5775,5877,5993,6095,6209,6337,6453,6575,6711,6831,6965,7085,7197,7323,7529,7653,7783,7905,8043,8177,8293,8413"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\punks\\IdeaProjects\\App-Planilla-Mensual-de-Sueldos\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endLines": "48",
+                        "endColumns": "12",
+                        "endOffsets": "3764"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "49",
+                        "endColumns": "12",
+                        "endOffsets": "3803"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\punks\\.gradle\\caches\\8.10.2\\transforms\\4f3aaaba0aca8845d6f4ec6113f5673a\\transformed\\appcompat-1.7.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "50,51,52,53,54,55,56,83",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "3808,3878,3962,4046,4142,4244,4346,7328",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "3873,3957,4041,4137,4239,4341,4435,7412"
                     }
                 }
             ]

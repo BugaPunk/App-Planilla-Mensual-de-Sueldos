@@ -99,7 +99,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\pu
 	android:allowBackup
 		ADDED from C:\Users\punks\IdeaProjects\App-Planilla-Mensual-de-Sueldos\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from C:\Users\punks\IdeaProjects\App-Planilla-Mensual-de-Sueldos\app\src\main\AndroidManifest.xml:15:9-62
+		ADDED from C:\Users\punks\IdeaProjects\App-Planilla-Mensual-de-Sueldos\app\src\main\AndroidManifest.xml:15:9-40
 	android:dataExtractionRules
 		ADDED from C:\Users\punks\IdeaProjects\App-Planilla-Mensual-de-Sueldos\app\src\main\AndroidManifest.xml:9:9-65
 activity#com.bugabuga.planillamensualdesueldos.activities.OperationEmpleadoActivity

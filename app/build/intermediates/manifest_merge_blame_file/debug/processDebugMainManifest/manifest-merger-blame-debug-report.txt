@@ -44,8 +44,8 @@
 29        android:supportsRtl="true"
 29-->C:\Users\punks\IdeaProjects\App-Planilla-Mensual-de-Sueldos\app\src\main\AndroidManifest.xml:14:9-35
 30        android:testOnly="true"
-31        android:theme="@style/Theme.PlanillaMensualDeSueldos" >
-31-->C:\Users\punks\IdeaProjects\App-Planilla-Mensual-de-Sueldos\app\src\main\AndroidManifest.xml:15:9-62
+31        android:theme="@style/AppTheme" >
+31-->C:\Users\punks\IdeaProjects\App-Planilla-Mensual-de-Sueldos\app\src\main\AndroidManifest.xml:15:9-40
 32        <activity
 32-->C:\Users\punks\IdeaProjects\App-Planilla-Mensual-de-Sueldos\app\src\main\AndroidManifest.xml:17:9-19:40
 33            android:name="com.bugabuga.planillamensualdesueldos.activities.OperationEmpleadoActivity"
