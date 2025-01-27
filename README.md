@@ -14,6 +14,8 @@ Esta aplicación móvil se diseñó para gestionar la planilla mensual de sueldo
 *   Editar información de empleados
 *   Mostrar lista de empleados
 
+<img src="https://1drv.ms/i/c/b3617e53bcf30304/IQQf7p3Z_O5YQY_bFOXXQ9HTAdhSOHexS-ywstlTSwPpMls?width=1024" width="1024" height="auto" />
+<img src="https://1drv.ms/i/c/b3617e53bcf30304/IQREmU1eocu3T494PeNkRhdJAU9mTLSlMWXnmEADH6ton4I?width=1024" width="1024" height="auto" />
 ## Tecnologías utilizadas
 -------------------------
 

@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/page_1"
+            android:enabled="true"
+            android:icon="@drawable/addrounded"
+            android:title="Add"/>
+    <item
+            android:id="@+id/page_2"
+            android:enabled="true"
+            android:icon="@drawable/back_rounded"
+            android:title="Back"/>
+    <item
+            android:id="@+id/page_3"
+            android:enabled="true"
+            android:icon="@drawable/check_rounded"
+            android:title="Check"/>
+    <item
+            android:id="@+id/page_4"
+            android:enabled="true"
+            android:icon="@drawable/search_rounded"
+            android:title="Search"/>
+</menu>
