@@ -102,7 +102,7 @@ class OperationEmpleadoActivity : AppCompatActivity() {
             }
 
             UtilsMessage.showToast(
-                this@OperationEmpleadoActivity, "Empleado grabado ${EmpleadoOperation.getEmpleadoId()}"
+                this@OperationEmpleadoActivity, "Empleado guardado"
             )
 
             UtilsCommon.cleanEditText(binding.root.rootView)

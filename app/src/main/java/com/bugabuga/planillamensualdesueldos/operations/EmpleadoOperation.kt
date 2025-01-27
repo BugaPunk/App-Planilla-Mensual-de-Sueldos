@@ -97,16 +97,46 @@ object EmpleadoOperation {
         conexion.close()
     }
 
-    fun eliminar(empleado: Empleado) {
+    private fun actualizarB(sID: Int, empleado: Empleado, beneficiosEmpleado: BeneficiosEmpleado) {
         val conexion = MySQLconnection.getConexion().prepareStatement(
-            "DELETE FROM empleado WHERE id = ?;"
+            "UPDATE beneficios_empleado SET anos_trabajo = ?, categoria = ?, bono_movilidad = ?, bono_extra = ?, bono_antiguedad = ?, total_ganado = ?, iva = ?, afp = ?, club = ?, total_descuento = ?, liquido_pagable = ? WHERE id = ?;"
         )
-        conexion.setInt(1, empleado.id)
+        conexion.setInt(1, empleado.calcularAniosDeTrabajo())
+        conexion.setString(2, empleado.determinarCategoria())
+        conexion.setDouble(3, empleado.calcularBonoMovilidad())
+        conexion.setDouble(4, empleado.calcularBonoExtra())
+        conexion.setDouble(5, empleado.calcularBonoAntiguedad())
+        conexion.setDouble(6, empleado.calcularTotalGanado())
+        conexion.setDouble(7, empleado.calcularDescuentoIVA())
+        conexion.setDouble(8, empleado.calcularDescuentoAFP())
+        conexion.setDouble(9, empleado.calcularDescuentoClub())
+        conexion.setDouble(10, empleado.calcularTotalDescuentos())
+        conexion.setDouble(11, empleado.calcularLiquidoPagable())
+        conexion.setInt(12, beneficiosEmpleado.id)
 
         conexion.executeUpdate()
         conexion.close()
     }
 
+    fun eliminar(empleado: Empleado) {
+        // Eliminar los registros en la tabla beneficios_empleado que se refieren al empleado
+        val conexion = MySQLconnection.getConexion().prepareStatement(
+            "DELETE FROM beneficios_empleado WHERE empleado_id = ?;"
+        )
+        conexion.setInt(1, empleado.id)
+
+        conexion.executeUpdate()
+        conexion.close()
+
+        // Eliminar el empleado
+        val conexion2 = MySQLconnection.getConexion().prepareStatement(
+            "DELETE FROM empleado WHERE id = ?;"
+        )
+        conexion2.setInt(1, empleado.id)
+
+        conexion2.executeUpdate()
+        conexion2.close()
+    }
     fun grabar(empleado: Empleado) {
         if (empleado.id == 0){
             registrar(empleado)
@@ -121,12 +151,7 @@ object EmpleadoOperation {
             registrarB(this.empleadoId, empleado, beneficiosEmpleado)
         }
         else{
-            //actualizar(beneficiosEmpleado)
+            actualizarB(this.empleadoId, empleado, beneficiosEmpleado)
         }
-    }
-
-    // El unico getter
-    fun getEmpleadoId(): Int {
-        return empleadoId
     }
 }
