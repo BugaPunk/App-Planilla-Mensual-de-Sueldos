@@ -1,0 +1,34 @@
+create table empleado
+(
+    id            int auto_increment
+        primary key,
+    nombre        varchar(50)    not null,
+    apellidos     varchar(50)    not null,
+    fecha_ingreso varchar(50)    not null,
+    cargo         varchar(50)    not null,
+    haber_basico  decimal(10, 2) not null
+);
+
+create table beneficios_empleado
+(
+    id              int auto_increment
+        primary key,
+    empleado_id     int            not null,
+    anos_trabajo    int            not null,
+    categoria       varchar(50)    not null,
+    bono_movilidad  decimal(10, 2) not null,
+    bono_extra      decimal(10, 2) not null,
+    bono_antiguedad decimal(10, 2) not null,
+    total_ganado    decimal(10, 2) not null,
+    iva             decimal(10, 2) not null,
+    afp             decimal(10, 2) not null,
+    club            decimal(10, 2) not null,
+    total_descuento decimal(10, 2) not null,
+    liquido_pagable decimal(10, 2) not null,
+    constraint beneficios_empleado_ibfk_1
+        foreign key (empleado_id) references empleado (id)
+);
+
+create index empleado_id
+    on beneficios_empleado (empleado_id);
+

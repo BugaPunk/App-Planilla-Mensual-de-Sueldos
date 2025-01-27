@@ -1,0 +1,110 @@
+[
+    {
+        "merged": "com.bugabuga.planillamensualdesueldos.app-debug-32:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.bugabuga.planillamensualdesueldos.app-main-34:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.bugabuga.planillamensualdesueldos.app-debug-32:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "com.bugabuga.planillamensualdesueldos.app-main-34:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.bugabuga.planillamensualdesueldos.app-debug-32:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.bugabuga.planillamensualdesueldos.app-main-34:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.bugabuga.planillamensualdesueldos.app-debug-32:/drawable_delete_rounded.xml.flat",
+        "source": "com.bugabuga.planillamensualdesueldos.app-main-34:/drawable/delete_rounded.xml"
+    },
+    {
+        "merged": "com.bugabuga.planillamensualdesueldos.app-debug-32:/drawable_edit_rounded.xml.flat",
+        "source": "com.bugabuga.planillamensualdesueldos.app-main-34:/drawable/edit_rounded.xml"
+    },
+    {
+        "merged": "com.bugabuga.planillamensualdesueldos.app-debug-32:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.bugabuga.planillamensualdesueldos.app-main-34:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.bugabuga.planillamensualdesueldos.app-debug-32:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.bugabuga.planillamensualdesueldos.app-main-34:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.bugabuga.planillamensualdesueldos.app-debug-32:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.bugabuga.planillamensualdesueldos.app-main-34:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.bugabuga.planillamensualdesueldos.app-debug-32:/xml_data_extraction_rules.xml.flat",
+        "source": "com.bugabuga.planillamensualdesueldos.app-main-34:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.bugabuga.planillamensualdesueldos.app-debug-32:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.bugabuga.planillamensualdesueldos.app-main-34:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.bugabuga.planillamensualdesueldos.app-debug-32:/layout_layout_toolbar.xml.flat",
+        "source": "com.bugabuga.planillamensualdesueldos.app-main-34:/layout/layout_toolbar.xml"
+    },
+    {
+        "merged": "com.bugabuga.planillamensualdesueldos.app-debug-32:/drawable_check_rounded.xml.flat",
+        "source": "com.bugabuga.planillamensualdesueldos.app-main-34:/drawable/check_rounded.xml"
+    },
+    {
+        "merged": "com.bugabuga.planillamensualdesueldos.app-debug-32:/layout_activity_main.xml.flat",
+        "source": "com.bugabuga.planillamensualdesueldos.app-main-34:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.bugabuga.planillamensualdesueldos.app-debug-32:/drawable_search_rounded.xml.flat",
+        "source": "com.bugabuga.planillamensualdesueldos.app-main-34:/drawable/search_rounded.xml"
+    },
+    {
+        "merged": "com.bugabuga.planillamensualdesueldos.app-debug-32:/layout_item_empleado.xml.flat",
+        "source": "com.bugabuga.planillamensualdesueldos.app-main-34:/layout/item_empleado.xml"
+    },
+    {
+        "merged": "com.bugabuga.planillamensualdesueldos.app-debug-32:/drawable_addrounded.xml.flat",
+        "source": "com.bugabuga.planillamensualdesueldos.app-main-34:/drawable/addrounded.xml"
+    },
+    {
+        "merged": "com.bugabuga.planillamensualdesueldos.app-debug-32:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.bugabuga.planillamensualdesueldos.app-main-34:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.bugabuga.planillamensualdesueldos.app-debug-32:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "com.bugabuga.planillamensualdesueldos.app-main-34:/mipmap-anydpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.bugabuga.planillamensualdesueldos.app-debug-32:/drawable_back_rounded.xml.flat",
+        "source": "com.bugabuga.planillamensualdesueldos.app-main-34:/drawable/back_rounded.xml"
+    },
+    {
+        "merged": "com.bugabuga.planillamensualdesueldos.app-debug-32:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.bugabuga.planillamensualdesueldos.app-main-34:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.bugabuga.planillamensualdesueldos.app-debug-32:/xml_backup_rules.xml.flat",
+        "source": "com.bugabuga.planillamensualdesueldos.app-main-34:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.bugabuga.planillamensualdesueldos.app-debug-32:/drawable_update_rounded.xml.flat",
+        "source": "com.bugabuga.planillamensualdesueldos.app-main-34:/drawable/update_rounded.xml"
+    },
+    {
+        "merged": "com.bugabuga.planillamensualdesueldos.app-debug-32:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.bugabuga.planillamensualdesueldos.app-main-34:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.bugabuga.planillamensualdesueldos.app-debug-32:/layout_activity_operation_empleado.xml.flat",
+        "source": "com.bugabuga.planillamensualdesueldos.app-main-34:/layout/activity_operation_empleado.xml"
+    },
+    {
+        "merged": "com.bugabuga.planillamensualdesueldos.app-debug-32:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.bugabuga.planillamensualdesueldos.app-main-34:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.bugabuga.planillamensualdesueldos.app-debug-32:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.bugabuga.planillamensualdesueldos.app-main-34:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.bugabuga.planillamensualdesueldos.app-debug-32:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.bugabuga.planillamensualdesueldos.app-main-34:/mipmap-xxhdpi/ic_launcher_round.webp"
+    }
+]

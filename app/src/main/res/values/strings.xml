@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Planilla Mensual de Sueldos</string>
+    <string name="agregar">Agregar</string>
+    <string name="buscar">Buscar</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="fecha_de_ingreso">Fecha de Ingreso</string>
+    <string name="cargo">Cargo</string>
+    <string name="haber_b_sico">Haber Básico</string>
+    <string name="fechadeingreso">Fecha de Ingreso: </string>
+    <string name="cargo_">"Cargo: "</string>
+    <string name="hb_">"Haber Básico: "</string>
+    <string name="lp_">"Liquido Pagable: "</string>
+    <string name="empleado">Empleado</string>
+</resources>
