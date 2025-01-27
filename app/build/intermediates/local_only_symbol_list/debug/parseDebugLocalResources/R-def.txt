@@ -141,6 +141,7 @@ color md_theme_tertiaryFixed_highContrast
 color md_theme_tertiaryFixed_mediumContrast
 color md_theme_tertiary_highContrast
 color md_theme_tertiary_mediumContrast
+drawable addressbook
 drawable addrounded
 drawable back_rounded
 drawable check_rounded
@@ -150,10 +151,15 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable search_rounded
 drawable update_rounded
+id bottom_navigation
 id btnAccion
 id btnDelete
 id btnEdit
 id main
+id page_1
+id page_2
+id page_3
+id page_4
 id rv_lista
 id toolbar
 id txtC
@@ -181,7 +187,10 @@ layout activity_main
 layout activity_operation_empleado
 layout item_empleado
 layout layout_toolbar
+layout navigation_bottom
+menu bottom_navigation_menu
 mipmap ic_launcher
+mipmap ic_launcher_background
 mipmap ic_launcher_round
 string agregar
 string apellidos

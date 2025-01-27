@@ -3137,6 +3137,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable addressbook
 drawable addrounded
 drawable avd_hide_password
 drawable avd_show_password
@@ -3352,6 +3353,7 @@ id below
 id bestChoice
 id blocking
 id bottom
+id bottom_navigation
 id bounce
 id bounceBoth
 id bounceEnd
@@ -3603,6 +3605,10 @@ id outline
 id outward
 id overshoot
 id packed
+id page_1
+id page_2
+id page_3
+id page_4
 id parallax
 id parent
 id parentPanel
@@ -3974,6 +3980,7 @@ layout mtrl_picker_text_input_date
 layout mtrl_picker_text_input_date_range
 layout mtrl_search_bar
 layout mtrl_search_view
+layout navigation_bottom
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big
@@ -3984,7 +3991,9 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+menu bottom_navigation_menu
 mipmap ic_launcher
+mipmap ic_launcher_background
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
