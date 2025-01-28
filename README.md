@@ -20,7 +20,7 @@ Esta aplicación móvil se diseñó para gestionar la planilla mensual de sueldo
 *   Kotlin como lenguaje de programación
 *   Android Studio como entorno de desarrollo
 *   Arquitectura de componentes (Activities, Fragments, ViewModels)
-*   Servidor de base de datos (Railway)
+*   Servidor de base de datos
     ![Railway](https://railway.com/brand/logotype-light.svg)
 
 ## Estructura del proyecto
