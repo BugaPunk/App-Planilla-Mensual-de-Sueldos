@@ -4,12 +4,28 @@
         "source": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-main-34:/mipmap-anydpi/ic_launcher.xml"
     },
     {
+        "merged": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-debug-32:/drawable_icon.xml.flat",
+        "source": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-main-34:/drawable/icon.xml"
+    },
+    {
         "merged": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-debug-32:/mipmap-xxxhdpi_ic_launcher_background.webp.flat",
         "source": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-main-34:/mipmap-xxxhdpi/ic_launcher_background.webp"
     },
     {
         "merged": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-debug-32:/mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-main-34:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.bugabuga.planillamensualdesueldos.app-debug-32:/layout_activity_login.xml.flat",
+        "source": "com.bugabuga.planillamensualdesueldos.app-main-34:/layout/activity_login.xml"
+    },
+    {
+        "merged": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-debug-32:/layout_activity_login.xml.flat",
+        "source": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-main-34:/layout/activity_login.xml"
+    },
+    {
+        "merged": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-debug-32:/drawable_add_person_rounded.xml.flat",
+        "source": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-main-34:/drawable/add_person_rounded.xml"
     },
     {
         "merged": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-debug-32:/menu_bottom_navigation_menu.xml.flat",
@@ -32,6 +48,10 @@
         "source": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-main-34:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
+        "merged": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-debug-32:/drawable_forward_rounded.xml.flat",
+        "source": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-main-34:/drawable/forward_rounded.xml"
+    },
+    {
         "merged": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-debug-32:/mipmap-xhdpi_ic_launcher_background.webp.flat",
         "source": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-main-34:/mipmap-xhdpi/ic_launcher_background.webp"
     },
@@ -42,6 +62,10 @@
     {
         "merged": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-debug-32:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-main-34:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-debug-32:/drawable_email_rounded.xml.flat",
+        "source": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-main-34:/drawable/email_rounded.xml"
     },
     {
         "merged": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-debug-32:/mipmap-xhdpi_ic_launcher_round.webp.flat",
@@ -74,10 +98,6 @@
     {
         "merged": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-debug-32:/drawable_ic_launcher_background.xml.flat",
         "source": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-main-34:/drawable/ic_launcher_background.xml"
-    },
-    {
-        "merged": "com.bugabuga.planillamensualdesueldos.app-debug-32:/drawable_icon.xml.flat",
-        "source": "com.bugabuga.planillamensualdesueldos.app-main-34:/drawable/icon.xml"
     },
     {
         "merged": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-debug-32:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
@@ -144,11 +164,11 @@
         "source": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-main-34:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-debug-32:/drawable_back_rounded.xml.flat",
-        "source": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-main-34:/drawable/back_rounded.xml"
-    },
-    {
         "merged": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-debug-32:/mipmap-anydpi_ic_launcher_round.xml.flat",
         "source": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-main-34:/mipmap-anydpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-debug-32:/drawable_back_rounded.xml.flat",
+        "source": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-main-34:/drawable/back_rounded.xml"
     }
 ]

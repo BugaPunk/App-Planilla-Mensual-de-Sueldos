@@ -147,6 +147,8 @@
     <string name="buscar">Buscar</string>
     <string name="cargo">Cargo</string>
     <string name="cargo_">"Cargo: "</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="correo">Correo</string>
     <string name="empleado">Empleado</string>
     <string name="fecha_de_ingreso">Fecha de Ingreso</string>
     <string name="fechadeingreso">Fecha de Ingreso: </string>

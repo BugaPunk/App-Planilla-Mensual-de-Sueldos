@@ -12,4 +12,6 @@
     <string name="hb_">"Haber Básico: "</string>
     <string name="lp_">"Liquido Pagable: "</string>
     <string name="empleado">Empleado</string>
+    <string name="correo">Correo</string>
+    <string name="contrase_a">Contraseña</string>
 </resources>
