@@ -121,7 +121,7 @@ object EmpleadoOperation {
     fun eliminar(empleado: Empleado) {
         // Eliminar los registros en la tabla beneficios_empleado que se refieren al empleado
         val conexion = MySQLconnection.getConexion().prepareStatement(
-            "DELETE FROM beneficios_empleado WHERE empleado_id = ?;"
+            "DELETE FROM benefi200.00cios_empleado WHERE empleado_id = ?;"
         )
         conexion.setInt(1, empleado.id)
 

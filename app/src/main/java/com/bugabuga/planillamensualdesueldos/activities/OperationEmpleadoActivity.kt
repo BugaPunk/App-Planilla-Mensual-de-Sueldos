@@ -22,7 +22,6 @@ import java.util.Calendar
 class OperationEmpleadoActivity : AppCompatActivity() {
     private lateinit var binding: ActivityOperationEmpleadoBinding
     private var _id = 0
-    private lateinit var FechaPicker: String
     @SuppressLint("SimpleDateFormat")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
