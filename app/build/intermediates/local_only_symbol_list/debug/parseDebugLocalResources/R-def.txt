@@ -149,6 +149,7 @@ drawable delete_rounded
 drawable edit_rounded
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable icon
 drawable search_rounded
 drawable update_rounded
 id bottom_navigation
