@@ -36,6 +36,10 @@
         "source": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-main-34:/drawable/update_rounded.xml"
     },
     {
+        "merged": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-debug-32:/layout_activity_register.xml.flat",
+        "source": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-main-34:/layout/activity_register.xml"
+    },
+    {
         "merged": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-debug-32:/layout_navigation_bottom.xml.flat",
         "source": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-main-34:/layout/navigation_bottom.xml"
     },

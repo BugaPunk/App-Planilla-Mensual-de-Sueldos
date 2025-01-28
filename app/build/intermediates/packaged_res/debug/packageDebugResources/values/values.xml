@@ -156,6 +156,7 @@
     <string name="hb_">"Haber Básico: "</string>
     <string name="lp_">"Liquido Pagable: "</string>
     <string name="nombre">Nombre</string>
+    <string name="registrar">Registrar</string>
     <style name="AppTheme" parent="Theme.Material3.Light.NoActionBar">
         <item name="colorPrimary">@color/md_theme_primary</item>
         <item name="colorOnPrimary">@color/md_theme_onPrimary</item>

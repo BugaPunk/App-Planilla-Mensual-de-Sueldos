@@ -157,12 +157,15 @@ drawable search_rounded
 drawable update_rounded
 id bottom_navigation
 id btnAccion
+id btnAddUser
 id btnDelete
 id btnEdit
 id btnLogin
 id btnRegister
+id filledTFApellido
 id filledTFContrasena
 id filledTFCorreo
+id filledTFNombre
 id imageView
 id main
 id page_1
@@ -183,6 +186,7 @@ id txtILFIngreso
 id txtILHaberB
 id txtILNombre
 id txtIL_buscar
+id txtInputApellido
 id txtInputApellidos
 id txtInputBuscar
 id txtInputCargo
@@ -220,6 +224,7 @@ string haber_b_sico
 string hb_
 string lp_
 string nombre
+string registrar
 style AppTheme
 style ThemeOverlay.AppTheme.HighContrast
 style ThemeOverlay.AppTheme.MediumContrast

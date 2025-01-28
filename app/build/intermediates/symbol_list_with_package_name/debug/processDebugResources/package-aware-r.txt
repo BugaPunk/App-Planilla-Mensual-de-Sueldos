@@ -3363,6 +3363,7 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id btnAccion
+id btnAddUser
 id btnDelete
 id btnEdit
 id btnLogin
@@ -3457,8 +3458,10 @@ id fill
 id fill_horizontal
 id fill_vertical
 id filled
+id filledTFApellido
 id filledTFContrasena
 id filledTFCorreo
+id filledTFNombre
 id fitCenter
 id fitEnd
 id fitStart
@@ -3769,6 +3772,7 @@ id txtILFIngreso
 id txtILHaberB
 id txtILNombre
 id txtIL_buscar
+id txtInputApellido
 id txtInputApellidos
 id txtInputBuscar
 id txtInputCargo
@@ -4183,6 +4187,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string registrar
 string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description

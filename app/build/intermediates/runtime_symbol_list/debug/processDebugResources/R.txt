@@ -3362,6 +3362,7 @@ int id bounceBoth 0x7f080063
 int id bounceEnd 0x7f080064
 int id bounceStart 0x7f080065
 int id btnAccion 0x7f080066
+int id btnAddUser 0x7f080221
 int id btnDelete 0x7f080067
 int id btnEdit 0x7f080068
 int id btnLogin 0x7f08021b
@@ -3456,8 +3457,10 @@ int id fill 0x7f0800bf
 int id fill_horizontal 0x7f0800c0
 int id fill_vertical 0x7f0800c1
 int id filled 0x7f0800c2
+int id filledTFApellido 0x7f080222
 int id filledTFContrasena 0x7f08021d
 int id filledTFCorreo 0x7f08021e
+int id filledTFNombre 0x7f080223
 int id fitCenter 0x7f0800c3
 int id fitEnd 0x7f0800c4
 int id fitStart 0x7f0800c5
@@ -3768,6 +3771,7 @@ int id txtILFIngreso 0x7f0801f5
 int id txtILHaberB 0x7f0801f6
 int id txtILNombre 0x7f0801f7
 int id txtIL_buscar 0x7f0801f8
+int id txtInputApellido 0x7f080224
 int id txtInputApellidos 0x7f0801f9
 int id txtInputBuscar 0x7f0801fa
 int id txtInputCargo 0x7f0801fb
@@ -4182,6 +4186,7 @@ int string path_password_eye 0x7f1000a8
 int string path_password_eye_mask_strike_through 0x7f1000a9
 int string path_password_eye_mask_visible 0x7f1000aa
 int string path_password_strike_through 0x7f1000ab
+int string registrar 0x7f1000b5
 int string search_menu_title 0x7f1000ac
 int string searchbar_scrolling_view_behavior 0x7f1000ad
 int string searchview_clear_text_content_description 0x7f1000ae
