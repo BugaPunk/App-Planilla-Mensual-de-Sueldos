@@ -21,7 +21,7 @@ Esta aplicación móvil se diseñó para gestionar la planilla mensual de sueldo
 *   Android Studio como entorno de desarrollo
 *   Arquitectura de componentes (Activities, Fragments, ViewModels)
 *   Servidor de base de datos (Railway)
-    ![Railway](https://railway.com/brand/logotype-dark.svg)
+    ![Railway](https://railway.com/brand/logotype-light.svg)
 
 ## Estructura del proyecto
 ---------------------------
