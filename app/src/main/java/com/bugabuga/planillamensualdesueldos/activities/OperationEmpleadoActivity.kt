@@ -96,6 +96,7 @@ class OperationEmpleadoActivity : AppCompatActivity() {
                 ),
                 BeneficiosEmpleado(_id, 0, 0, "", 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
             )
+            onBackPressedDispatcher.onBackPressed()
         }
     }
 

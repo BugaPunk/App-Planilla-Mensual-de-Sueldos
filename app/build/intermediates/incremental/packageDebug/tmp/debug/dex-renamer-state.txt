@@ -1,4 +1,4 @@
-#Tue Jan 28 17:25:19 BOT 2025
+#Tue Jan 28 18:03:55 BOT 2025
 base.0=/home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 base.1=/home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
 base.2=/home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/build/intermediates/dex/debug/mergeProjectDexDebug/10/classes.dex
