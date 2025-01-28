@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:2:1-40:12
+ADDED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:2:1-37:12
 MERGED from [androidx.databinding:viewbinding:8.8.0-alpha05] /home/ronald/.gradle/caches/8.10.2/transforms/638398be8c2d0ca481573c4f859b5261/transformed/viewbinding-8.8.0-alpha05/AndroidManifest.xml:2:1-7:12
 MERGED from [com.github.programadorescs:LibreriaPcs:1.0.4] /home/ronald/.gradle/caches/8.10.2/transforms/6ec7c5e7fb20ce019c1e7afe166237c0/transformed/LibreriaPcs-1.0.4/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.12.0] /home/ronald/.gradle/caches/8.10.2/transforms/37b0a1f67e839d0da6818f6dd0cdfdc4/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
@@ -62,8 +62,8 @@ ADDED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/Andro
 	android:name
 		ADDED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:7:5-38:19
-INJECTED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:7:5-38:19
+ADDED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:7:5-35:19
+INJECTED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:7:5-35:19
 MERGED from [com.google.android.material:material:1.12.0] /home/ronald/.gradle/caches/8.10.2/transforms/37b0a1f67e839d0da6818f6dd0cdfdc4/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] /home/ronald/.gradle/caches/8.10.2/transforms/37b0a1f67e839d0da6818f6dd0cdfdc4/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] /home/ronald/.gradle/caches/8.10.2/transforms/d6c246008900cad5666f14a7441dd92a/transformed/constraintlayout-2.2.0/AndroidManifest.xml:7:5-20
@@ -102,34 +102,40 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/ronal
 		ADDED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:15:9-40
 	android:dataExtractionRules
 		ADDED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:9:9-65
+activity#com.bugabuga.planillamensualdesueldos.activities.RegisterActivity
+ADDED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:17:9-19:40
+	android:exported
+		ADDED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:19:13-37
+	android:name
+		ADDED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:18:13-56
 activity#com.bugabuga.planillamensualdesueldos.activities.LoginActivity
-ADDED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:17:9-25:20
+ADDED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:20:9-28:20
 	android:exported
-		ADDED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:19:13-36
+		ADDED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:22:13-36
 	android:name
-		ADDED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:18:13-53
+		ADDED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:21:13-53
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:20:13-24:29
+ADDED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN
-ADDED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:21:17-69
+ADDED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:21:25-66
+		ADDED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:23:17-77
+ADDED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:23:27-74
+		ADDED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:26:27-74
 activity#com.bugabuga.planillamensualdesueldos.activities.OperationEmpleadoActivity
-ADDED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:26:9-28:40
+ADDED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:29:9-31:40
 	android:exported
-		ADDED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:28:13-37
+		ADDED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:27:13-65
+		ADDED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:30:13-65
 activity#com.bugabuga.planillamensualdesueldos.activities.MainActivity
-ADDED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:29:9-37:20
+ADDED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:32:9-34:39
 	android:exported
-		ADDED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:31:13-36
+		ADDED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:34:13-36
 	android:name
-		ADDED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:30:13-52
+		ADDED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml:33:13-52
 uses-sdk
 INJECTED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/ronald/IdeaProjects/PlanillaMensualdeSueldos/app/src/main/AndroidManifest.xml

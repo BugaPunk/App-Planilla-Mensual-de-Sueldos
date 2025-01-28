@@ -197,6 +197,7 @@ id txtNombreYApellidos
 layout activity_login
 layout activity_main
 layout activity_operation_empleado
+layout activity_register
 layout item_empleado
 layout layout_toolbar
 layout navigation_bottom

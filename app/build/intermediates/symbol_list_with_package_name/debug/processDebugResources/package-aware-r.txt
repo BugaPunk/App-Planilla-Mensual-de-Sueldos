@@ -3921,6 +3921,7 @@ layout abc_tooltip
 layout activity_login
 layout activity_main
 layout activity_operation_empleado
+layout activity_register
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

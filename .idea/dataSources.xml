@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="db_planilla@localhost" uuid="8d0a6150-11eb-4ecc-a3ce-a8b6198b1fd6">
-      <driver-ref>mariadb</driver-ref>
+    <data-source source="LOCAL" name="db_planilla@autorack.proxy.rlwy.net" uuid="5479adcd-6903-49d5-927e-100007b58e62">
+      <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mariadb://localhost:3306/db_planilla</jdbc-url>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://autorack.proxy.rlwy.net:31331/db_planilla</jdbc-url>
       <jdbc-additional-properties>
         <property name="com.intellij.clouds.kubernetes.db.host.port" />
         <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />

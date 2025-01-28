@@ -29,6 +29,13 @@ create table beneficios_empleado
         foreign key (empleado_id) references empleado (id)
 );
 
-create index empleado_id
-    on beneficios_empleado (empleado_id);
+create table usuarios
+(
+    id       int          not null
+        primary key,
+    nombre   varchar(50)  null,
+    apellido varchar(50)  null,
+    email    varchar(100) null,
+    password varchar(100) null
+);
 

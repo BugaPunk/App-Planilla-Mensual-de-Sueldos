@@ -30,6 +30,9 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
+            android:name="com.bugabuga.planillamensualdesueldos.activities.RegisterActivity"
+            android:exported="false" />
+        <activity
             android:name="com.bugabuga.planillamensualdesueldos.activities.LoginActivity"
             android:exported="true" >
             <intent-filter>
@@ -43,13 +46,7 @@
             android:exported="false" />
         <activity
             android:name="com.bugabuga.planillamensualdesueldos.activities.MainActivity"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="true" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

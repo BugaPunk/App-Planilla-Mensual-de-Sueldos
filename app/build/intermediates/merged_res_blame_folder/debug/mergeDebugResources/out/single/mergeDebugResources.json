@@ -16,10 +16,6 @@
         "source": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-main-34:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.bugabuga.planillamensualdesueldos.app-debug-32:/layout_activity_login.xml.flat",
-        "source": "com.bugabuga.planillamensualdesueldos.app-main-34:/layout/activity_login.xml"
-    },
-    {
         "merged": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-debug-32:/layout_activity_login.xml.flat",
         "source": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-main-34:/layout/activity_login.xml"
     },
@@ -110,6 +106,10 @@
     {
         "merged": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-debug-32:/mipmap-xxhdpi_ic_launcher_background.webp.flat",
         "source": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-main-34:/mipmap-xxhdpi/ic_launcher_background.webp"
+    },
+    {
+        "merged": "com.bugabuga.planillamensualdesueldos.app-debug-32:/layout_activity_register.xml.flat",
+        "source": "com.bugabuga.planillamensualdesueldos.app-main-34:/layout/activity_register.xml"
     },
     {
         "merged": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-debug-32:/drawable_addressbook.xml.flat",

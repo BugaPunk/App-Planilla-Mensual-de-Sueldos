@@ -16,15 +16,15 @@
         "source": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-main-34:/layout/activity_login.xml"
     },
     {
-        "merged": "com.bugabuga.planillamensualdesueldos.app-mergeDebugResources-31:/layout/activity_login.xml",
-        "source": "com.bugabuga.planillamensualdesueldos.app-main-34:/layout/activity_login.xml"
-    },
-    {
         "merged": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-mergeDebugResources-31:/layout/item_empleado.xml",
         "source": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-main-34:/layout/item_empleado.xml"
     },
     {
         "merged": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-mergeDebugResources-31:/layout/navigation_bottom.xml",
         "source": "/home/ronald/.gradle/daemon/8.10.2/com.bugabuga.planillamensualdesueldos.app-main-34:/layout/navigation_bottom.xml"
+    },
+    {
+        "merged": "com.bugabuga.planillamensualdesueldos.app-mergeDebugResources-31:/layout/activity_register.xml",
+        "source": "com.bugabuga.planillamensualdesueldos.app-main-34:/layout/activity_register.xml"
     }
 ]
