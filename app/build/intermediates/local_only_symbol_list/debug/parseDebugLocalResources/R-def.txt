@@ -176,6 +176,7 @@ id rv_lista
 id toolbar
 id txtC
 id txtCargo
+id txtDescripcion
 id txtFI
 id txtFIngreso
 id txtHB
@@ -198,6 +199,7 @@ id txtInputNombre
 id txtLP
 id txtLPagable
 id txtNombreYApellidos
+id txtTitulo
 layout activity_login
 layout activity_main
 layout activity_operation_empleado
@@ -222,9 +224,11 @@ string fecha_de_ingreso
 string fechadeingreso
 string haber_b_sico
 string hb_
+string llene_los_campos_vacios_para_registrar_un_nuevo_usuario
 string lp_
 string nombre
 string registrar
+string registrar_nuevo_usuario
 style AppTheme
 style ThemeOverlay.AppTheme.HighContrast
 style ThemeOverlay.AppTheme.MediumContrast

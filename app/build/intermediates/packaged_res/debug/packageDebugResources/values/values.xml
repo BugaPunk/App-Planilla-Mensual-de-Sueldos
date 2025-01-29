@@ -154,9 +154,11 @@
     <string name="fechadeingreso">Fecha de Ingreso: </string>
     <string name="haber_b_sico">Haber Básico</string>
     <string name="hb_">"Haber Básico: "</string>
+    <string name="llene_los_campos_vacios_para_registrar_un_nuevo_usuario">Llene los campos vacios para registrar un nuevo usuario</string>
     <string name="lp_">"Liquido Pagable: "</string>
     <string name="nombre">Nombre</string>
     <string name="registrar">Registrar</string>
+    <string name="registrar_nuevo_usuario">Registrar Nuevo Usuario</string>
     <style name="AppTheme" parent="Theme.Material3.Light.NoActionBar">
         <item name="colorPrimary">@color/md_theme_primary</item>
         <item name="colorOnPrimary">@color/md_theme_onPrimary</item>

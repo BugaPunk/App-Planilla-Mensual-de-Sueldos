@@ -17,6 +17,25 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+        <TextView
+            android:id="@+id/txtTitulo"
+            style="?attr/textAppearanceTitleLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:text="@string/registrar_nuevo_usuario" />
+
+        <TextView
+            android:id="@+id/txtDescripcion"
+            style="?attr/textAppearanceBody1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="40dp"
+            android:text="@string/llene_los_campos_vacios_para_registrar_un_nuevo_usuario" />
+
+
         <com.google.android.material.textfield.TextInputLayout
             style="?attr/textInputFilledStyle"
             android:id="@+id/filledTFNombre"
@@ -81,7 +100,7 @@
                 android:id="@+id/txtInputContrasena"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="text"
+                android:inputType="textPassword"
                 />
         </com.google.android.material.textfield.TextInputLayout>
 

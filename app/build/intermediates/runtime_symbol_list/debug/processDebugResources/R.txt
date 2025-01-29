@@ -3761,6 +3761,7 @@ int id transition_transform 0x7f0801f2
 int id triangle 0x7f0801f3
 int id txtC 0x7f0801f4
 int id txtCargo 0x7f0801f5
+int id txtDescripcion 0x7f080225
 int id txtFI 0x7f0801f6
 int id txtFIngreso 0x7f0801f7
 int id txtHB 0x7f0801f8
@@ -3783,6 +3784,7 @@ int id txtInputNombre 0x7f080208
 int id txtLP 0x7f080209
 int id txtLPagable 0x7f08020a
 int id txtNombreYApellidos 0x7f08020b
+int id txtTitulo 0x7f080226
 int id unchecked 0x7f08020c
 int id uniform 0x7f08020d
 int id unlabeled 0x7f08020e
@@ -4079,6 +4081,7 @@ int string hb_ 0x7f10003f
 int string hide_bottom_view_on_scroll_behavior 0x7f100040
 int string icon_content_description 0x7f100041
 int string item_view_role_description 0x7f100042
+int string llene_los_campos_vacios_para_registrar_un_nuevo_usuario 0x7f1000b7
 int string lp_ 0x7f100043
 int string m3_exceed_max_badge_text_suffix 0x7f100044
 int string m3_ref_typeface_brand_medium 0x7f100045
@@ -4187,6 +4190,7 @@ int string path_password_eye_mask_strike_through 0x7f1000ab
 int string path_password_eye_mask_visible 0x7f1000ac
 int string path_password_strike_through 0x7f1000ad
 int string registrar 0x7f1000ae
+int string registrar_nuevo_usuario 0x7f1000b6
 int string search_menu_title 0x7f1000af
 int string searchbar_scrolling_view_behavior 0x7f1000b0
 int string searchview_clear_text_content_description 0x7f1000b1

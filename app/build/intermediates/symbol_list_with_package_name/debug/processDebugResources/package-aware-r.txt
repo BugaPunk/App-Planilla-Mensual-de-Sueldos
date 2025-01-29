@@ -3762,6 +3762,7 @@ id transition_transform
 id triangle
 id txtC
 id txtCargo
+id txtDescripcion
 id txtFI
 id txtFIngreso
 id txtHB
@@ -3784,6 +3785,7 @@ id txtInputNombre
 id txtLP
 id txtLPagable
 id txtNombreYApellidos
+id txtTitulo
 id unchecked
 id uniform
 id unlabeled
@@ -4080,6 +4082,7 @@ string hb_
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
+string llene_los_campos_vacios_para_registrar_un_nuevo_usuario
 string lp_
 string m3_exceed_max_badge_text_suffix
 string m3_ref_typeface_brand_medium
@@ -4188,6 +4191,7 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string registrar
+string registrar_nuevo_usuario
 string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description

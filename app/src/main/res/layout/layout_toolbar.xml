@@ -7,7 +7,7 @@
     android:background="?attr/colorPrimary"
     app:navigationIcon="@drawable/update_rounded"
     app:navigationIconTint="?attr/colorOnSurfaceInverse"
-    app:title="Planilla Mensual"
+    app:title="@string/planilla_mensual"
     app:titleCentered="true"
     app:titleTextColor="?attr/colorOnSurfaceInverse"
     app:subtitle=""

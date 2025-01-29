@@ -8,6 +8,7 @@
     app:navigationIcon="@drawable/update_rounded"
     app:navigationIconTint="?attr/colorOnSurfaceInverse"
     app:title="Planilla Mensual"
+    app:titleCentered="true"
     app:titleTextColor="?attr/colorOnSurfaceInverse"
     app:subtitle=""
     app:subtitleTextColor="?attr/colorOnSurfaceInverse"
