@@ -1,6 +1,5 @@
 package com.bugabuga.planillamensualdesueldos.operations
 
-import com.bugabuga.planillamensualdesueldos.models.Empleado
 import com.bugabuga.planillamensualdesueldos.models.Usuario
 import com.mysql.jdbc.Statement
 import java.sql.ResultSet
@@ -21,44 +20,17 @@ object UsuarioOperation {
         connection.close()
     }
 
-    fun listar(dato: String): List<Usuario> {
-        try {
-            var lista = mutableListOf<Usuario>()
-
-            val ps = MySQLconnection.getConexion().prepareStatement(
-                "SELECT id, nombre, apellido, email, password FROM usuarios WHERE nombre LIKE concat('%',?,'%');"
-            )
-            ps.setString(1, dato) // Reemplaza el parámetro ? con el valor de dato
-            val rs = ps.executeQuery()
-            while (rs.next()) {
-                lista.add(
-                    Usuario(
-                        rs.getInt("id"),
-                        rs.getString("nombre"),
-                        rs.getString("apellido"),
-                        rs.getString("email"),
-                        rs.getString("password")
-                    )
-                )
-            }
-            rs.close()
-            ps.close()
-            return lista
-        } catch (e: Exception) {
-            println("Error en la función listar: ${e.message}")
-            return emptyList()
-        }
-    }
-
     fun validarUsuario(email: String, password: String): Usuario? {
         var usuario: Usuario? = null
 
         try {
+            val contrasennaCifrada = UtilsCrypto.hashSHA256(password)
+
             val ps = MySQLconnection.getConexion().prepareStatement(
                 "SELECT id, nombre, apellido, email, password FROM usuarios WHERE email = ? AND password = ?;"
             )
             ps.setString(1, email)
-            ps.setString(2, password)
+            ps.setString(2, contrasennaCifrada) // Comparar con el hash almacenado
 
             val rs: ResultSet = ps.executeQuery()
 
@@ -76,8 +48,6 @@ object UsuarioOperation {
         } catch (e: Exception) {
             println("Error en la función validarUsuario: ${e.message}")
         }
-
         return usuario
     }
-
 }
