@@ -4047,6 +4047,7 @@ string androidx_startup
 string apellidos
 string app_name
 string appbar_scrolling_view_behavior
+string bienvenido
 string bottom_sheet_behavior
 string bottomsheet_action_collapse
 string bottomsheet_action_expand
@@ -4081,6 +4082,7 @@ string haber_b_sico
 string hb_
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
+string iniciar
 string item_view_role_description
 string llene_los_campos_vacios_para_registrar_un_nuevo_usuario
 string lp_
@@ -4191,6 +4193,7 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string planilla_mensual
+string registra
 string registrar
 string registrar_nuevo_usuario
 string search_menu_title

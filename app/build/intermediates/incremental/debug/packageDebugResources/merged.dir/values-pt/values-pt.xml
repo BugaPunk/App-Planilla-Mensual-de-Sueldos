@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="agregar">Adicionar</string>
+    <string name="apellidos">Sobrenome</string>
+    <string name="app_name">Planilha Mensal de Salários</string>
+    <string name="bienvenido">Bem-vindo</string>
+    <string name="buscar">Buscar</string>
+    <string name="cargo">Cargo</string>
+    <string name="cargo_">"Cargo: "</string>
+    <string name="contrase_a">Senha</string>
+    <string name="correo">E-mail</string>
+    <string name="empleado">Empregado</string>
+    <string name="fecha_de_ingreso">Data de Entrada</string>
+    <string name="fechadeingreso">Data de Entrada: </string>
+    <string name="haber_b_sico">Salário Básico</string>
+    <string name="hb_">"Salário Básico: "</string>
+    <string name="iniciar">Entrar</string>
+    <string name="llene_los_campos_vacios_para_registrar_un_nuevo_usuario">Preencha os campos vazios para registrar um novo usuário</string>
+    <string name="lp_">"Salário Líquido: "</string>
+    <string name="nombre">Nome</string>
+    <string name="planilla_mensual">Planilha Mensal</string>
+    <string name="registra">Cadastrar</string>
+    <string name="registrar">Registrar</string>
+    <string name="registrar_nuevo_usuario">Registrar Novo Usuário</string>
+</resources>

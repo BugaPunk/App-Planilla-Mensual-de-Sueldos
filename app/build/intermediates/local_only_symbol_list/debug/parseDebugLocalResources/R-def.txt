@@ -214,6 +214,7 @@ mipmap ic_launcher_round
 string agregar
 string apellidos
 string app_name
+string bienvenido
 string buscar
 string cargo
 string cargo_
@@ -224,10 +225,12 @@ string fecha_de_ingreso
 string fechadeingreso
 string haber_b_sico
 string hb_
+string iniciar
 string llene_los_campos_vacios_para_registrar_un_nuevo_usuario
 string lp_
 string nombre
 string planilla_mensual
+string registra
 string registrar
 string registrar_nuevo_usuario
 style AppTheme

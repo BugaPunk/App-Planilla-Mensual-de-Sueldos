@@ -20,4 +20,6 @@
     <string name="llene_los_campos_vacios_para_registrar_un_nuevo_usuario">Please fill in the empty fields to register a new user</string>
     <string name="planilla_mensual">Monthly Payroll</string>
     <string name="bienvenido">Welcome</string>
+    <string name="iniciar">Login</string>
+    <string name="registra">Sign Up</string>
 </resources>

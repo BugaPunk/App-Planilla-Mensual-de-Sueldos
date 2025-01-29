@@ -1,4 +1,4 @@
-#Wed Jan 29 00:37:07 BOT 2025
+#Wed Jan 29 00:58:38 BOT 2025
 base.0=C\:\\Users\\punks\\IdeaProjects\\App-Planilla-Mensual-de-Sueldos\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\punks\\IdeaProjects\\App-Planilla-Mensual-de-Sueldos\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\Users\\punks\\IdeaProjects\\App-Planilla-Mensual-de-Sueldos\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex

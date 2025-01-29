@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="agregar">Ajouter</string>
+    <string name="apellidos">Nom de famille</string>
+    <string name="app_name">Paie Mensuelle</string>
+    <string name="bienvenido">Bienvenue</string>
+    <string name="buscar">Rechercher</string>
+    <string name="cargo">Fonction</string>
+    <string name="cargo_">"Fonction: "</string>
+    <string name="contrase_a">Mot de passe</string>
+    <string name="correo">Courriel</string>
+    <string name="empleado">Employé</string>
+    <string name="fecha_de_ingreso">Date d\'entrée</string>
+    <string name="fechadeingreso">Date d\'entrée: </string>
+    <string name="haber_b_sico">Salaire de base</string>
+    <string name="hb_">"Salaire de base: "</string>
+    <string name="iniciar">Connexion</string>
+    <string name="llene_los_campos_vacios_para_registrar_un_nuevo_usuario">Veuillez remplir les champs vides pour enregistrer un nouveau utilisateur</string>
+    <string name="lp_">"Salaire net: "</string>
+    <string name="nombre">Nom</string>
+    <string name="planilla_mensual">Paie mensuelle</string>
+    <string name="registra">Inscription</string>
+    <string name="registrar">Enregistrer</string>
+    <string name="registrar_nuevo_usuario">Enregistrer un nouveau utilisateur</string>
+</resources>

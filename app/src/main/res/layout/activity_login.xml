@@ -84,7 +84,7 @@
                 android:layout_marginHorizontal="3dp"
                 android:layout_gravity="center_vertical"
                 app:icon="@drawable/forward_rounded"
-                android:text="Iniciar" />
+                android:text="@string/iniciar" />
 
             <Button
                 style="?attr/materialButtonOutlinedStyle"
@@ -95,7 +95,7 @@
                 android:layout_marginHorizontal="3dp"
                 android:layout_gravity="center_vertical"
                 app:icon="@drawable/add_person_rounded"
-                android:text="Registrar" />
+                android:text="@string/registra" />
 
         </LinearLayout>
 

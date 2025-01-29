@@ -19,4 +19,6 @@
     <string name="llene_los_campos_vacios_para_registrar_un_nuevo_usuario">Füllen Sie die leeren Felder aus, um einen neuen Benutzer zu registrieren</string>
     <string name="planilla_mensual">Monatsabrechnung</string>
     <string name="bienvenido">Willkommen</string>
+    <string name="iniciar">Anmelden</string>
+    <string name="registra">Registrieren</string>
 </resources>

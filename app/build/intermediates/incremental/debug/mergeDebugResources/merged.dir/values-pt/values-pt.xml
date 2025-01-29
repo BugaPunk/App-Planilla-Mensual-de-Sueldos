@@ -27,6 +27,11 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Compartilhar com"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Compartilhar com <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Recolher"</string>
+    <string name="agregar">Adicionar</string>
+    <string name="apellidos">Sobrenome</string>
+    <string name="app_name">Planilha Mensal de Salários</string>
+    <string name="bienvenido">Bem-vindo</string>
+    <string name="buscar">Buscar</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"Atender"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Vídeo"</string>
     <string msgid="3229508546291798546" name="call_notification_decline_action">"Recusar"</string>
@@ -34,6 +39,23 @@
     <string msgid="6107532579223922871" name="call_notification_incoming_text">"Alguém está ligando"</string>
     <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Chamada em andamento"</string>
     <string msgid="59049573811482460" name="call_notification_screening_text">"Filtrando uma ligação recebida"</string>
+    <string name="cargo">Cargo</string>
+    <string name="cargo_">"Cargo: "</string>
+    <string name="contrase_a">Senha</string>
+    <string name="correo">E-mail</string>
+    <string name="empleado">Empregado</string>
+    <string name="fecha_de_ingreso">Data de Entrada</string>
+    <string name="fechadeingreso">Data de Entrada: </string>
+    <string name="haber_b_sico">Salário Básico</string>
+    <string name="hb_">"Salário Básico: "</string>
+    <string name="iniciar">Entrar</string>
+    <string name="llene_los_campos_vacios_para_registrar_un_nuevo_usuario">Preencha os campos vazios para registrar um novo usuário</string>
+    <string name="lp_">"Salário Líquido: "</string>
+    <string name="nombre">Nome</string>
+    <string name="planilla_mensual">Planilha Mensal</string>
+    <string name="registra">Cadastrar</string>
+    <string name="registrar">Registrar</string>
+    <string name="registrar_nuevo_usuario">Registrar Novo Usuário</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Pesquisar"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>
