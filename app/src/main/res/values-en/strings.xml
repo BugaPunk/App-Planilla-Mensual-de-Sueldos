@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string name="app_name">Monthly Payroll</string>
+    <string name="agregar">Add</string>
+    <string name="buscar">Search</string>
+    <string name="nombre">Name</string>
+    <string name="apellidos">Last Name</string>
+    <string name="fecha_de_ingreso">Date of Entry</string>
+    <string name="cargo">Position</string>
+    <string name="haber_b_sico">Basic Salary</string>
+    <string name="fechadeingreso">Date of Entry: </string>
+    <string name="cargo_">"Position: "</string>
+    <string name="hb_">"Basic Salary: "</string>
+    <string name="lp_">"Liquid Payable: "</string>
+    <string name="empleado">Employee</string>
+    <string name="correo">Email</string>
+    <string name="contrase_a">Password</string>
+    <string name="registrar">Register</string>
+    <string name="registrar_nuevo_usuario">Register New User</string>
+    <string name="llene_los_campos_vacios_para_registrar_un_nuevo_usuario">Please fill in the empty fields to register a new user</string>
+    <string name="planilla_mensual">Monthly Payroll</string>
+    <string name="bienvenido">Welcome</string>
+</resources>

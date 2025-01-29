@@ -4,7 +4,7 @@
             "outputFile": "com.bugabuga.planillamensualdesueldos.app-mergeDebugResources-30:/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "/home/ronald/.gradle/caches/8.10.2/transforms/4f3aaaba0aca8845d6f4ec6113f5673a/transformed/appcompat-1.7.0/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "source": "C:\\Users\\punks\\.gradle\\caches\\8.10.2\\transforms\\4f3aaaba0aca8845d6f4ec6113f5673a\\transformed\\appcompat-1.7.0\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

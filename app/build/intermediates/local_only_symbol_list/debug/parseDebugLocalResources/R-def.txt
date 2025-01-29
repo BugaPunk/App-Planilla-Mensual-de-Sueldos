@@ -227,6 +227,7 @@ string hb_
 string llene_los_campos_vacios_para_registrar_un_nuevo_usuario
 string lp_
 string nombre
+string planilla_mensual
 string registrar
 string registrar_nuevo_usuario
 style AppTheme

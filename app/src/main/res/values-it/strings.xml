@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Busta Paga Mensile</string>
+    <string name="agregar">Aggiungi</string>
+    <string name="buscar">Cerca</string>
+    <string name="nombre">Nome</string>
+    <string name="apellidos">Cognome</string>
+    <string name="fecha_de_ingreso">Data di ingresso</string>
+    <string name="cargo">Ruolo</string>
+    <string name="haber_b_sico">Stipendio base</string>
+    <string name="fechadeingreso">Data di ingresso: </string>
+    <string name="cargo_">"Ruolo: "</string>
+    <string name="hb_">"Stipendio base: "</string>
+    <string name="lp_">"Stipendio lordo: "</string>
+    <string name="empleado">Dipendente</string>
+    <string name="correo">E-mail</string>
+    <string name="contrase_a">Password</string>
+    <string name="registrar">Registra</string>
+    <string name="registrar_nuevo_usuario">Registra nuovo utente</string>
+    <string name="llene_los_campos_vacios_para_registrar_un_nuevo_usuario">Compila i campi vuoti per registrare un nuovo utente</string>
+    <string name="planilla_mensual">Busta paga mensile</string>
+    <string name="bienvenido">Benvenuto</string>
+</resources>

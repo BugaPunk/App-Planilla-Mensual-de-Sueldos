@@ -4,7 +4,7 @@
             "outputFile": "com.bugabuga.planillamensualdesueldos.app-mergeDebugResources-30:/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "/home/ronald/.gradle/caches/8.10.2/transforms/37b0a1f67e839d0da6818f6dd0cdfdc4/transformed/material-1.12.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\punks\\.gradle\\caches\\8.10.2\\transforms\\37b0a1f67e839d0da6818f6dd0cdfdc4\\transformed\\material-1.12.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/ronald/.gradle/caches/8.10.2/transforms/4f3aaaba0aca8845d6f4ec6113f5673a/transformed/appcompat-1.7.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\punks\\.gradle\\caches\\8.10.2\\transforms\\4f3aaaba0aca8845d6f4ec6113f5673a\\transformed\\appcompat-1.7.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
