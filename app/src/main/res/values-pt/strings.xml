@@ -19,4 +19,6 @@
     <string name="llene_los_campos_vacios_para_registrar_un_nuevo_usuario">Preencha os campos vazios para registrar um novo usuário</string>
     <string name="planilla_mensual">Planilha Mensal</string>
     <string name="bienvenido">Bem-vindo</string>
+    <string name="iniciar">Entrar</string>
+    <string name="registra">Cadastrar</string>
 </resources>

@@ -31,11 +31,16 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Partager avec"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Partager avec <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Réduire"</string>
+    <string name="agregar">Ajouter</string>
+    <string name="apellidos">Nom de famille</string>
+    <string name="app_name">Paie Mensuelle</string>
+    <string name="bienvenido">Bienvenue</string>
     <string name="bottomsheet_action_collapse">Réduire la bottom sheet</string>
     <string name="bottomsheet_action_expand">Développer la bottom sheet</string>
     <string name="bottomsheet_action_expand_halfway">Développer en entier</string>
     <string name="bottomsheet_drag_handle_clicked">A appuyé deux fois sur la poignée de déplacement</string>
     <string name="bottomsheet_drag_handle_content_description">Poignée de déplacement</string>
+    <string name="buscar">Rechercher</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"Répondre"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Vidéo"</string>
     <string msgid="3229508546291798546" name="call_notification_decline_action">"Refuser"</string>
@@ -43,14 +48,26 @@
     <string msgid="6107532579223922871" name="call_notification_incoming_text">"Appel entrant"</string>
     <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Appel en cours"</string>
     <string msgid="59049573811482460" name="call_notification_screening_text">"Filtrage d\'un appel entrant"</string>
+    <string name="cargo">Fonction</string>
+    <string name="cargo_">"Fonction: "</string>
     <string name="character_counter_content_description">Caractères saisis %1$d sur %2$d</string>
     <string name="character_counter_overflowed_content_description">Nombre maximal de caractères dépassé : %1$d sur %2$d</string>
     <string name="clear_text_end_icon_content_description">Effacer le texte</string>
+    <string name="contrase_a">Mot de passe</string>
+    <string name="correo">Courriel</string>
+    <string name="empleado">Employé</string>
     <string name="error_a11y_label">Erreur : Non valide</string>
     <string name="error_icon_content_description">Erreur</string>
     <string name="exposed_dropdown_menu_content_description">Afficher le menu déroulant</string>
+    <string name="fecha_de_ingreso">Date d\'entrée</string>
+    <string name="fechadeingreso">Date d\'entrée: </string>
+    <string name="haber_b_sico">Salaire de base</string>
+    <string name="hb_">"Salaire de base: "</string>
     <string name="icon_content_description">Icône de la boîte de dialogue</string>
+    <string name="iniciar">Connexion</string>
     <string name="item_view_role_description">Tabulation</string>
+    <string name="llene_los_campos_vacios_para_registrar_un_nuevo_usuario">Veuillez remplir les champs vides pour enregistrer un nouveau utilisateur</string>
+    <string name="lp_">"Salaire net: "</string>
     <string name="material_clock_toggle_content_description">Sélectionner le format AM ou PM</string>
     <string name="material_hour_24h_suffix">%1$s heures</string>
     <string name="material_hour_selection">Sélectionnez une heure</string>
@@ -109,7 +126,12 @@
     <string name="mtrl_picker_toggle_to_year_selection">Appuyer pour passer à la vue \"Année\"</string>
     <string name="mtrl_timepicker_cancel">Annuler</string>
     <string name="mtrl_timepicker_confirm">OK</string>
+    <string name="nombre">Nom</string>
     <string name="password_toggle_content_description">Afficher le mot de passe</string>
+    <string name="planilla_mensual">Paie mensuelle</string>
+    <string name="registra">Inscription</string>
+    <string name="registrar">Enregistrer</string>
+    <string name="registrar_nuevo_usuario">Enregistrer un nouveau utilisateur</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Rechercher"</string>
     <string name="searchview_clear_text_content_description">Effacer le texte</string>
     <string name="searchview_navigation_content_description">Retour</string>

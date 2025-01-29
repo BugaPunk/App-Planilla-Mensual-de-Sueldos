@@ -4046,6 +4046,7 @@ int string androidx_startup 0x7f10001c
 int string apellidos 0x7f10001d
 int string app_name 0x7f10001e
 int string appbar_scrolling_view_behavior 0x7f10001f
+int string bienvenido 0x7f1000b9
 int string bottom_sheet_behavior 0x7f100020
 int string bottomsheet_action_collapse 0x7f100021
 int string bottomsheet_action_expand 0x7f100022
@@ -4080,6 +4081,7 @@ int string haber_b_sico 0x7f10003e
 int string hb_ 0x7f10003f
 int string hide_bottom_view_on_scroll_behavior 0x7f100040
 int string icon_content_description 0x7f100041
+int string iniciar 0x7f1000ba
 int string item_view_role_description 0x7f100042
 int string llene_los_campos_vacios_para_registrar_un_nuevo_usuario 0x7f100043
 int string lp_ 0x7f100044
@@ -4190,6 +4192,7 @@ int string path_password_eye_mask_strike_through 0x7f1000ac
 int string path_password_eye_mask_visible 0x7f1000ad
 int string path_password_strike_through 0x7f1000ae
 int string planilla_mensual 0x7f1000af
+int string registra 0x7f1000bb
 int string registrar 0x7f1000b0
 int string registrar_nuevo_usuario 0x7f1000b1
 int string search_menu_title 0x7f1000b2

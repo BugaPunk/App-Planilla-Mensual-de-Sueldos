@@ -19,4 +19,6 @@
     <string name="llene_los_campos_vacios_para_registrar_un_nuevo_usuario">Compila i campi vuoti per registrare un nuovo utente</string>
     <string name="planilla_mensual">Busta paga mensile</string>
     <string name="bienvenido">Benvenuto</string>
+    <string name="iniciar">Accedi</string>
+    <string name="registra">Iscriviti</string>
 </resources>

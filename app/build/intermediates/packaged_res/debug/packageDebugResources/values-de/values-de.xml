@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="agregar">Hinzufügen</string>
+    <string name="apellidos">Nachname</string>
+    <string name="app_name">Monatsgehalt-Abrechnung</string>
+    <string name="bienvenido">Willkommen</string>
+    <string name="buscar">Suchen</string>
+    <string name="cargo">Position</string>
+    <string name="cargo_">"Position: "</string>
+    <string name="contrase_a">Passwort</string>
+    <string name="correo">E-Mail</string>
+    <string name="empleado">Mitarbeiter</string>
+    <string name="fecha_de_ingreso">Eintrittsdatum</string>
+    <string name="fechadeingreso">Eintrittsdatum: </string>
+    <string name="haber_b_sico">Grundgehalt</string>
+    <string name="hb_">"Grundgehalt: "</string>
+    <string name="iniciar">Anmelden</string>
+    <string name="llene_los_campos_vacios_para_registrar_un_nuevo_usuario">Füllen Sie die leeren Felder aus, um einen neuen Benutzer zu registrieren</string>
+    <string name="lp_">"Nettogehalt: "</string>
+    <string name="nombre">Name</string>
+    <string name="planilla_mensual">Monatsabrechnung</string>
+    <string name="registra">Registrieren</string>
+    <string name="registrar">Registrieren</string>
+    <string name="registrar_nuevo_usuario">Neuen Benutzer registrieren</string>
+</resources>

@@ -3,6 +3,7 @@
     <string name="agregar">Add</string>
     <string name="apellidos">Last Name</string>
     <string name="app_name">Monthly Payroll</string>
+    <string name="bienvenido">Welcome</string>
     <string name="buscar">Search</string>
     <string name="cargo">Position</string>
     <string name="cargo_">"Position: "</string>
@@ -13,10 +14,12 @@
     <string name="fechadeingreso">Date of Entry: </string>
     <string name="haber_b_sico">Basic Salary</string>
     <string name="hb_">"Basic Salary: "</string>
+    <string name="iniciar">Login</string>
     <string name="llene_los_campos_vacios_para_registrar_un_nuevo_usuario">Please fill in the empty fields to register a new user</string>
     <string name="lp_">"Liquid Payable: "</string>
     <string name="nombre">Name</string>
     <string name="planilla_mensual">Monthly Payroll</string>
+    <string name="registra">Sign Up</string>
     <string name="registrar">Register</string>
     <string name="registrar_nuevo_usuario">Register New User</string>
 </resources>

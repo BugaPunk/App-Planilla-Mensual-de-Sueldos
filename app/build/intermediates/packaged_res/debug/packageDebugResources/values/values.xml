@@ -144,6 +144,7 @@
     <string name="agregar">Agregar</string>
     <string name="apellidos">Apellidos</string>
     <string name="app_name">Planilla Mensual de Sueldos</string>
+    <string name="bienvenido">Bienvenido</string>
     <string name="buscar">Buscar</string>
     <string name="cargo">Cargo</string>
     <string name="cargo_">"Cargo: "</string>
@@ -154,10 +155,12 @@
     <string name="fechadeingreso">Fecha de Ingreso: </string>
     <string name="haber_b_sico">Haber Básico</string>
     <string name="hb_">"Haber Básico: "</string>
+    <string name="iniciar">Iniciar</string>
     <string name="llene_los_campos_vacios_para_registrar_un_nuevo_usuario">Llene los campos vacios para registrar un nuevo usuario</string>
     <string name="lp_">"Liquido Pagable: "</string>
     <string name="nombre">Nombre</string>
     <string name="planilla_mensual">Planilla Mensual</string>
+    <string name="registra">Registrar</string>
     <string name="registrar">Registrar</string>
     <string name="registrar_nuevo_usuario">Registrar Nuevo Usuario</string>
     <style name="AppTheme" parent="Theme.Material3.Light.NoActionBar">

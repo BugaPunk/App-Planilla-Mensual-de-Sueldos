@@ -19,4 +19,6 @@
     <string name="llene_los_campos_vacios_para_registrar_un_nuevo_usuario">Veuillez remplir les champs vides pour enregistrer un nouveau utilisateur</string>
     <string name="planilla_mensual">Paie mensuelle</string>
     <string name="bienvenido">Bienvenue</string>
+    <string name="iniciar">Connexion</string>
+    <string name="registra">Inscription</string>
 </resources>
