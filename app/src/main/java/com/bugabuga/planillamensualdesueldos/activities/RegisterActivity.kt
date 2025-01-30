@@ -8,6 +8,7 @@ import com.bugabuga.planillamensualdesueldos.databinding.ActivityRegisterBinding
 import com.bugabuga.planillamensualdesueldos.models.Usuario
 import com.bugabuga.planillamensualdesueldos.operations.UsuarioOperation
 import com.bugabuga.planillamensualdesueldos.operations.UtilsCrypto
+import com.bugabuga.planillamensualdesueldos.operations.UtilsValidacion
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
@@ -29,20 +30,30 @@ class RegisterActivity : AppCompatActivity() {
 
     private fun initListener() {
         binding.btnAddUser.setOnClickListener {
-            if (binding.txtInputNombre.text.toString().trim().isEmpty() ||
-                binding.txtInputApellido.text.toString().trim().isEmpty() ||
-                binding.txtInputCorreo.text.toString().trim().isEmpty() ||
-                binding.txtInputContrasena.text.toString().trim().isEmpty()) {
+            val nombre = binding.txtInputNombre.text.toString().trim()
+            val apellido = binding.txtInputApellido.text.toString().trim()
+            val correo = binding.txtInputCorreo.text.toString().trim()
+            val contrasena = binding.txtInputContrasena.text.toString().trim()
+
+            // Validar campos vacíos
+            if (nombre.isEmpty() || apellido.isEmpty() || correo.isEmpty() || contrasena.isEmpty()) {
                 UtilsMessage.showAlertOk("Error", "Todos los campos son obligatorios", this)
                 return@setOnClickListener
             }
+
+            // Validar formato del correo
+            if (!UtilsValidacion.validarCorreo(correo)) {
+                UtilsMessage.showAlertOk("Error", "Correo electrónico no válido", this)
+                return@setOnClickListener
+            }
+
             grabar(
                 Usuario(
                     _id,
-                    binding.txtInputNombre.text.toString().trim(),
-                    binding.txtInputApellido.text.toString().trim(),
-                    binding.txtInputCorreo.text.toString().trim(),
-                    binding.txtInputContrasena.text.toString().trim()
+                    nombre,
+                    apellido,
+                    correo,
+                    contrasena
                 )
             )
         }

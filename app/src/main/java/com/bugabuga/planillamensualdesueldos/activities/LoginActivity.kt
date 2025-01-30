@@ -35,7 +35,8 @@ class LoginActivity : AppCompatActivity() {
 
             if (email.isEmpty() || password.isEmpty()) {
                 Toast.makeText(this, "Por favor, complete todos los campos", Toast.LENGTH_SHORT).show()
-            } else {
+            }
+            else {
                 lifecycleScope.launch {
                     val usuario = withContext(Dispatchers.IO) {
                         UsuarioOperation.validarUsuario(email, password)
